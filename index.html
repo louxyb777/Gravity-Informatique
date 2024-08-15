@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+	
+	    <script type="text/javascript" language="javascript">
+    var lien = "nav";
+    function rand(max) {
+    return (Math.floor(Math.random() * max));
+    }
+
+    function initaec() {
+	    for (var i=0;i<document.links.length;i++) {
+		    if (document.links[i].className == "aec") {
+			    document.links[i].onmouseover = aec;
+			    document.links[i].onmouseout = unaec;
+			    document.links[i].aecTimer = null;
+		    }
+	    }
+    }
+
+    function aec(isFF) {
+	    if (isFF) {
+		    lien = isFF.target;
+		    isFF.target.aecTimer = setInterval('lien.style.color = "rgb("+rand(256)+","+rand(256)+","+rand(256)+")";',100);
+	    }
+    }
+
+    function unaec(isFF) {
+	    if (isFF) { 
+		    clearInterval(isFF.target.aecTimer);
+		    isFF.target.aecTimer = null;
+		    isFF.target.style.color = "";
+	    }
+    }
+        </script>
+            <meta charset="utf-8"/>
+            <link rel="stylesheet" href="index.css"/>
+        
+        <title>Gravity Informatique</title>
+		
+        <script type="text/javascript">
+    
+        var gs_d=new Date,DoW=gs_d.getDay();gs_d.setDate(gs_d.getDate()-(DoW+6)%7+3);
+        var ms=gs_d.valueOf();gs_d.setMonth(0);gs_d.setDate(4);
+        var gs_r=(Math.round((ms-gs_d.valueOf())/6048E5)+1)*gs_d.getFullYear();
+        var gs_p = (("https:" == document.location.protocol) ? "https://" : "http://");
+        document.write(unescape("%3Cscript src='" + gs_p + "s.gstat.orange.fr/lib/gs.js?"+gs_r+"' type='text/javascript'%3E%3C/script%3E"));
+
+        </script>
+	
+    </head>
+    
+  <body>
+  
+        <div id="bloc_page">
+            <header>
+                <div id="titre_principal">
+                    <a href="index.html"><img src="images/logo gravity.png" alt="logo Gravity-Informatique" title="logo Gravity-Informatique"></a>
+					
+                    <h1>ravity informatique</h1>
+                    
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+						<li><a href="https://goo.gl/photos/PjNh7f8gm6z9Av8Y8" target="_blank">Vidéo 4D</a></li>
+                        <li><a href="https://goo.gl/photos/TnAZhfkEyS97ZonL8" target="_blank">Capture 4D</a></li>
+                        <li><a href="incorpo 2d.html">Incorpo 2D</a></li>
+                        <li><a href="me contacter accueil.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <div id="banniere_image">
+			
+			    </div>
+                
+                <article>
+				
+                    <h1>JULLIEN Stéphane</h1>
+                    <p>Totalement illuminé par un Commodore 64 acquis à l'age de 14 ans, ce fut la révélation et depuis la passion dévorante à fait son chemin.</p>
+					
+                    <div id="compteur">
+					<img src="https://pages.perso.orange.fr/php/compteur.php?url=Gravity-Informatique&df=compteur&dd=D&frgb=noir&ft=0&tr=Non&md=5&pad=Oui&comma=Non"> 
+					</div>
+					
+	<SCRIPT LANGUAGE="JavaScript">
+
+    function HeureCheckEJS()
+	{
+	krucial = new Date;
+	heure = krucial.getHours();
+	min = krucial.getMinutes();
+	sec = krucial.getSeconds();
+	jour = krucial.getDate();
+	mois = krucial.getMonth()+1;
+	annee = krucial.getFullYear();
+	if (sec < 10)
+		sec0 = "0";
+	else
+		sec0 = "";
+	if (min < 10)
+		min0 = "0";
+	else
+		min0 = "";
+	if (heure < 10)
+		heure0 = "0";
+	else
+		heure0 = "";
+	DinaHeure = heure0 + heure + ":" + min0 + min + ":" + sec0 + sec;
+	which = DinaHeure
+	if (document.getElementById){
+		document.getElementById("ejs_heure").innerHTML=which;
+	}
+	setTimeout("HeureCheckEJS()", 1000)
+	}
+    window.onload = HeureCheckEJS;
+    </SCRIPT>
+
+    <div id="ejs_heure">Initialisation</div>
+
+                </article>
+		    <aside>
+	    <marquee id="aside"><span onmouseover="getElementById('aside').stop();" onmouseout="getElementById('aside').start();">
+        <img src="images/a.jpg">
+		<img src="images/b.jpg">
+		<img src="images/c.jpg">
+		<img src="images/d.jpg">
+		<img src="images/e.jpg">
+		<img src="images/f.jpg">
+		<img src="images/g.jpg">
+		<img src="images/h.jpg">
+		<img src="images/i.jpg">
+		<img src="images/j.jpg">
+		<img src="images/k.jpg">
+		<img src="images/l.jpg">
+		<img src="images/m.jpg">
+		<img src="images/n.jpg">
+		<img src="images/o.jpg">
+		<img src="images/p.jpg">
+		
+		</span></marquee>
+		
+		    </aside>
+            
+            <footer>
+                
+                    <p>Copyright 2014-2021 &copy Design et conception de JULLIEN Stéphane " Gravity Informatique "</p>
+                
+            </footer>
+			
+    <script type="text/javascript">
+	
+    if (typeof _gstat != "undefined") _gstat.audience('','pagesperso-orange.fr');
+
+    </script>
+  </body>
+</html>
+
+
+
+	
+
+
+
+
+
+
+
+

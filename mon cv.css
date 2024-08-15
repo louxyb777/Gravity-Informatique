@@ -1,0 +1,48 @@
+﻿body
+{ 
+    background-image: url('images/GrungeMarbled0009_L.jpg');   
+}	
+	
+.moncv
+{
+    text-align: center;
+}
+
+.mondiplome
+{
+    text-align: center;
+}	 
+
+nav
+{   
+	position: absolute; left: 0px; right: 30px;
+    text-align: center;
+
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a
+{
+    font-size: 1.5em;
+    color: black;
+    padding-bottom: 3px;
+    text-decoration: none;
+    border-bottom: 3px solid #2723fe;
+}
+
+nav a:hover
+{
+    color: black;
+    opacity: 0.3;
+    transition: all 0.5s;
+}

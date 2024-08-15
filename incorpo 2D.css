@@ -1,0 +1,54 @@
+﻿body
+{
+	background url:("images/page accueil 2D.jpg=");
+	background-size: cover;
+	background-color: black;
+    
+}	
+
+.jeux
+{
+    position: absolute; margin-left: 1250px; top: 25px; color: cyan;
+	font-size: 1.2em;
+}
+
+.jeux a
+{
+    color: cyan;
+    text-decoration: none;
+}
+
+nav
+{
+    display: inline-block;
+    width: 800px;
+    text-align: right;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a
+{
+	font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color: #ffd700;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: silver;
+    border-bottom: 3px solid silver;
+}

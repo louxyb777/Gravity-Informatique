@@ -1,0 +1,102 @@
+﻿nav
+{   
+	position: absolute; left: 0px; right: 0px; top: 80 px;
+    text-align: center;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a
+{
+    font-size: 1.5em;
+    color: #e5f2ff;
+    padding-bottom: 3px;
+    text-decoration: underline; 
+}
+
+nav a:hover
+{
+    color: red;
+    border-bottom: 3px solid #e5f2ff;
+}
+
+a 
+{
+   text-decoration: none ;color: red ;font-style: italic;  
+}
+
+a:hover 
+{
+   text-decoration: underline;
+   color: white;
+}
+
+body
+{
+    background: url("images/vlcsnap-2014-05-01-22h03m35s193.jpg") no-repeat center top; 
+    background-size: cover;
+}
+
+.Mes-Dobermanns-en-photos
+{
+    position: absolute; right: 100px; top: 50px; width:300px; height:57px; text-align: center; color: black; font-size: 1.5em; background-image: url('images/GrungeMarbled0009_L.jpg');
+
+}
+
+.Mes-Dobermanns-en-videos
+{
+    position: absolute; left: 100px; top: 50px; width:300px; height:57px; text-align: center; color: black; font-size: 1.5em; background-image: url('images/GrungeMarbled0009_L.jpg');
+}	
+
+.consulter
+{
+    position: absolute; left: 100px; bottom: 50px; width:300px; height:57px; text-align: center; color: black; font-size: 1.5em; background-image: url('images/GrungeMarbled0009_L.jpg');       
+}
+
+.pour
+{
+    position: absolute; right: 100px; bottom: 50px; width:200px; height:57px; text-align: center; color: black; font-size: 1.5em; background-image: url('images/GrungeMarbled0009_L.jpg');  
+}
+
+.moncv2  
+{ 
+    text-align: center; background-image: url('images/GrungeMarbled0009_L.jpg'); 
+}	 
+
+.web
+{
+    position: absolute; left: 0px; right: 0px ; top: 100px; color: #51a0fd; 
+	text-align: center;
+}
+
+.imprimeur
+{
+    position: absolute; left: 0px; right: 0px; top: 200px; color: #e09695; 
+	text-align: center;
+}
+
+.infographie
+{
+    position: absolute; left: 0px; right: 0px ; top: 150px; color: violet; 
+	text-align: center;
+}
+
+
+
+
+	
+	
+	
+	
+    
+
+
